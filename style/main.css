@@ -1,17 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-main {
+body {
     font-family: 'Roboto', 'sans-serif';
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "main main aside"
+        "footer footer footer";
+    grid-gap: 1rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 80vh auto;
 }
 
-.teste {
-    display: inline-block;
-    /* align-items: bottom; */
+.t-header {
+    grid-area: header;
+    padding: 1.5rem;
 }
 
-
-.call-to-action {
-    margin-top: 6%;
-    background-color: #02568E;
-    text-align: center;
+.t-main {
+    grid-area: main;
 }
+
+.t-aside {
+    grid-area: aside;
+}
+
+.t-footer {
+    grid-area: footer;
+    padding: 1rem;
+}
+
+/* Altera cor dos componentes */
+/*
+.t-header, .t-aside, .t-main, .t-footer {
+    background: #BC20E2;
+    color: #FDFDFD;
+  }
+*/
