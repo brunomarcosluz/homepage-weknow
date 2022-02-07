@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.teste {
+    display: inline-block;
+    align-items: center;
+    margin-right: 50%;
+}
+
+
+.call-to-action {
+    margin-top: 6%;
+    background-color: #02568E;
+    text-align: center;
+}
