@@ -5,7 +5,7 @@ body {
     display: grid;
     grid-template-areas: 
         "header header header"
-        "main main aside"
+        "main main main"
         "footer footer footer";
     grid-gap: 1rem;
     grid-template-columns: auto auto auto;
@@ -17,7 +17,6 @@ body {
     padding: 1.5rem;
     
 }
-
 
 .t-header img {
     display: inline-block;
@@ -31,20 +30,18 @@ body {
    padding-left: 2%;
    padding-top: 0;
    align-items: left;
+   color: #0168AF;
 }
 
 .t-main {
     grid-area: main;
 }
 
-.t-aside {
-    grid-area: aside;
-}
-
 .t-footer {
     grid-area: footer;
     padding: 1rem;
 }
+
 
 /* Altera cor dos componentes */
 /*
