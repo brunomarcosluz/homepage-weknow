@@ -38,7 +38,7 @@ body {
 .t-main {
     grid-area: main;
     display: flexbox;
-    align-items: center;s
+    align-items: center;
     align-content: center;
     justify-content: center;
     text-align: center;
