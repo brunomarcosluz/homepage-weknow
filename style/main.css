@@ -59,6 +59,10 @@ body {
     padding-top: 10%;
 }
 
+.second-main h3 {
+    padding-bottom: 10%;
+}
+
 .t-footer {
     grid-area: footer;
     display: inline-block;
